@@ -17,8 +17,7 @@
 .up {
     width: 100vw;
     height: 90px;
-    background: black;
-    opacity: 0.5;
+    background:rgba(0, 0, 0, 0.5);
 }
 
 .up header {
@@ -45,14 +44,14 @@
 .up-1 div {
     font-weight: bold;
     font-size: 35px;
-    margin:auto 0;
+    margin: auto 0;
 }
 
 .up-1 div span {
     color: red;
 }
 
-.up ul{
+.up ul {
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -60,7 +59,7 @@
     height: 100%;
 }
 
-.up li{
+.up li {
     width: 80px;
     display: flex;
     justify-content: center;
@@ -78,61 +77,61 @@
     height: 100%;
 }
 
-.container{
-    height:600px;
+.container {
+    height: 600px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    color:white;
+    color: white;
 }
 
-.container h1{
+.container h1 {
     font-size: 90px;
-    font-weight:900;
+    font-weight: 900;
     font-family: "Nunito Sans", sans-serif;
     position: relative;
 }
 
-.container p{
+.container p {
     display: flex;
     flex-wrap: wrap;
     align-content: center;
-    margin:20px;
-    width:900px;
+    margin: 20px;
+    width: 900px;
     text-align: center;
 }
 
-.container .buttons{
+.container .buttons {
     display: inline-block;
 }
 
-.container button{
+.container button {
     display: inline-block;
     padding: 20px;
     border-radius: 40px;
-    border:none;
-    margin:20px;
+    border: none;
+    margin: 20px;
     font-weight: bolder;
 }
 
-.container .btn-1{
+.container .btn-1 {
     background: #FF0000;
-    color:white
+    color: white
 }
 
-.container .btn-2{
+.container .btn-2 {
     background: white;
-    color:#FF0000;
+    color: #FF0000;
 }
 
-.content-2{
-    width:100vw;
+.content-2 {
+    width: 100vw;
     /*height:1366px;*/
     background: #fff;
 }
 
-.content-2 .h1-container{
+.content-2 .h1-container {
     width: 100vw;
     height: 60px;
     display: flex;
@@ -140,115 +139,116 @@
     justify-content: center;
 }
 
-.content-2 h1{
+.content-2 h1 {
     font-size: 35px;
     font-weight: bolder;
-    color:#000;
+    color: #000;
     font-family: "Nunito Sans", sans-serif;
     display: inline-block;
     padding: 10px 30px;
 }
 
 .content-2 h1::before,
-.content-2 h1::after{
-    content: "";
-    display:block;
+.content-2 h1::after {
+    content: "-----";
+    letter-spacing: -5px;
     height: 3px;
-    background: red;
+    color: red;
     flex-grow: 1;
 }
 
-.blog-articles{
+.blog-articles {
     display: flex;
     align-items: center;
     justify-content: center;
-    width:1088px;
-    margin:0 auto;
-    color:gray;
+    width: 1088px;
+    margin: 0 auto;
+    color: gray;
 
 }
 
-.article{
+.article {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    align-items:center;
+    align-items: center;
     margin-left: 16px;
     font-family: "Nunito Sans", sans-serif;
 }
 
-.article img{
-    width:352px;
-    height:234px;
+.article img {
+    width: 352px;
+    height: 234px;
 }
 
-.article .container-content{
+.article .container-content {
     display: flex;
-flex-direction: column;
+    flex-direction: column;
 }
 
-.article span{
+.article span {
     font-size: 19px;
     text-transform: uppercase;
     margin: 20px 0;
 }
 
-.article p{
-    width:80%;
+.article p {
+    width: 80%;
     margin-bottom: 10px;
 }
 
-.btn{
+.btn {
     border-radius: 40px;
     background: #FF0000;
     color: #fff;
     font-size: 14px;
-    width:142px;
-    height:40px;
-    border:none;
+    width: 142px;
+    height: 40px;
+    border: none;
     font-weight: 700;
 }
 
-.content-3{
+.content-3 {
     background: #28272C;
-    width:1366px;
-    height:643px;
+    width: 1366px;
+    height: 643px;
     font-family: "Nunito Sans", sans-serif;
     margin-top: 50px;
 }
 
-.content-3 .h1-container{
+.content-3 .h1-container {
     display: flex;
     align-items: center;
     justify-content: center;
-    color:#fff;
+    color: #fff;
     font-size: 35px;
     padding: 30px;
     font-weight: 400;
     margin-bottom: 20px;
 }
 
-.content-3 .articles-3{
+.content-3 .articles-3 {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    color:#fff;
+    color: #fff;
 }
 
-.content-3 .article-3{
-    width:231px;
-    height:361px;
+.content-3 .article-3 {
+    width: 231px;
+    height: 361px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
 }
-.content-3 img{
-    width:170px;
-    height:170px;
+
+.content-3 img {
+    width: 170px;
+    height: 170px;
 }
 
-.content-3 .article-3 span{
+.content-3 .article-3 span {
     text-transform: uppercase;
     font-family: "Nunito Sans", sans-serif;
     margin-top: 20px;
@@ -263,64 +263,143 @@ flex-direction: column;
 
 }
 
-.content-4{
-    height:620px;
-    width:80vw;
+.content-4 {
+    height: 620px;
+    width: 80vw;
     margin: 50px auto 0 auto;
 }
-.container-4{
+
+.container-4 {
 
     height: 100%;
     padding: 60px 0;
+
 }
 
 .content-container {
     display: flex;
-    justify-content:space-between;
+    justify-content: space-between;
     height: 100%;
 }
 
-.content-4 img{
-    width:444px;
-    height:317px;
+.content-4 img {
+    width: 444px;
+    height: 317px;
 }
 
-.content-4 h1{
+.content-4 h1 {
     font-size: 35px;
-    color:black;
+    color: black;
     text-align: center;
     font-family: "Nunito Sans", sans-serif;
     margin-bottom: 30px;
 }
 
-.form-container{
+.form-container {
     display: flex;
     flex-direction: column;
-    width:50%;
+    width: 50%;
     height: 100%;
+    align-items: flex-end;
+
 }
 
-.form-container input{
-    width:444px;
-    border-radius:8px;
+.form-container input {
+    width: 100%;
+    border-radius: 8px;
     border: 1px solid gray;
-    padding:5px ;
+    padding: 5px;
 }
 
 .form-container textarea {
-    height:140px;
-    width:444px;
-    border-radius:8px;
+    height: 140px;
+    width: 100%;
+    border-radius: 8px;
     border: 1px solid gray;
-    padding:5px ;
+    padding: 5px;
 }
 
-.form-container form{
+.form-container form {
     height: 80%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
 
-.form-container input.check {
+
+.form-container textarea:hover{
+    border-color: red;
 }
+.form-container input:hover{
+    border-color: red;
+
+}
+.check {
+    display: flex;
+    flex-direction: column;
+    width:100%;
+}
+
+.check input{
+    width:10%;
+    display: flex;
+    align-content: flex-start;
+}
+
+.check label{
+    display: flex;
+    align-content: flex-end;
+}
+
+.form-container{
+    display: flex;
+    align-content: flex-end;
+}
+
+.container-4 button {
+    border-radius: 40px;
+    border: 2px solid red;
+    color: red;
+    font-size: 14px;
+    padding: 5px 10px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    width: 142px;
+    height: 40px;
+
+
+}
+
+.container-5 {
+    background: #28272C;
+    width: 100vw;
+    height: 232px;
+    color: white;
+    font-family: "Nunito Sans", sans-serif;
+    padding-left: 50px;
+}
+
+.container-5 .up-1 div {
+    font-size: 25px;
+    margin: 30px 0;
+
+}
+
+.container-5 nav {
+    display: flex;
+    justify-content: space-between;
+    width:40%;
+}
+
+.container-5 nav li {
+    padding: 5px;
+}
+.copy{
+    color: white;
+    /*text-align: right;*/
+    /*float: right;*/
+    position: absolute;
+    right:0;
+    bottom:0
+}
+
